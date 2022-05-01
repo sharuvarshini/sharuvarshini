@@ -1,0 +1,9 @@
+> library(readxl)
+> Apple_2022 <- read_excel("E:/need/Apple_2022.xlsx")
+There were 50 or more warnings (use warnings() to see the first 50)
+> View(Apple_2022)
+> mean(Apple_2022$modal_price)
+[1] 7673.921
+> var(Apple_2022$modal_price)
+[1] 415430429
+> 
